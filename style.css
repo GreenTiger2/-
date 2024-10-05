@@ -1,3 +1,9 @@
+/*Panel navigacii*/
+#log {
+	height: 5%;
+	width: 5%;
+}
+
 /*БЛок обратной связи*/
 .feedback {
 	background-color:#99CC00;
@@ -23,4 +29,40 @@
 	background-color: violet;
 	border-color: violet;
 	cursor: pointer;
+}
+
+/*Podval*/
+footer {
+	background-color: black;
+}
+
+.footer-info {
+	color: grey;
+	font-size: 16pt;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 30%;
+	margin: 0 auto;
+}
+
+#git, #spotify, #discord {
+	width: 15%;
+	height: 15%;
+	fill: white;
+	margin-right: 4%;
+	margin-top: 5%;
+}
+
+ #git:hover {
+	fill: darkgrey;
+}
+
+#discord:hover {
+	fill: darkblue;
+}
+#spotify:hover {
+	fill: green;
 }
