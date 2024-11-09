@@ -1,3 +1,8 @@
+/*.header {
+	animation-delay: 0.5s;
+}*/
+
+
 /*Panel navigacii*/
 nav{
 	position: absolute;
@@ -8,29 +13,53 @@ nav{
 	width: 5%;
 }
 
-/*Shapka*/
+/*Шапка*/
 header {
-	background-image: url(../Site-with-reciepts/rr.jpg);
-	background-size: cover;
-	background-attachment: fixed;
+  background-size: cover;
+}
+
+img {
+  height: 500px;
+}
+
+#first-slide {
+  background-image: url("../Site-with-reciepts/rr.jpg");
+}
+
+#second-slide {
+  background-image: url("../Site-with-reciepts/log.png");
+}
+
+.slides {
+  position: absolute;
+/*  min-width: 100%;
+  min-height: 100%;*/
 }
 
 .overlay {
-	position: absolute;
-	background: rgba(150, 75, 0, 0.4); /*  color*/
-	min-width: 100%;
-	min-height: 100%;
+  position: absolute;
+  background: rgba(227, 222, 219, 0.4);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 10;
+}
+
+.white-text {
+  color: white;
 }
 
 .description {
-	position: absolute;
-	color: black;
-	font-size: 20pt;
-	margin-top: 4%;
-	width: 50%;
-	z-index: 20;
+  background: rgba(0, 0, 0, 0.6);
+  position: relative;
+  color: black;
+  font-size: 20pt;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding: 3%;
+  width: 50%;
+  z-index: 20;
+  left: 25%;
 }
-
 /*БЛок обратной связи*/
 .feedback {
 	background-image:linear-gradient(45deg, lightgreen, darkorange);

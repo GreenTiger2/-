@@ -1,0 +1,10 @@
+/*Панель навигации*/
+#logo {
+  height: 8%;
+  width: 8%;
+}
+
+.navbar-expand-lg {
+  background-color: #CCEECC;
+  border-color: #00CC99;
+}

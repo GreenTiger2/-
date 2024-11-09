@@ -1,0 +1,30 @@
+
+/*Блок обратной связи*/
+.feedback {
+  background-image: linear-gradient(45deg, limegreen, darkgray, crimson);
+  padding-top: 2%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+#email {
+  padding: 2%;
+}
+
+.form-control {
+      display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: darkgray;
+}
+
+#submit {
+	margin-top: 3%;
+  padding: 2%;
+  background-color: #00FF99;
+  border-color: #00FF99;
+  cursor: pointer;
+}

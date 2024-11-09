@@ -1,0 +1,45 @@
+/*Шапка*/
+header {
+  background-size: cover;
+}
+
+#first-slide {
+  background-image: url("../Site_with_reciepts1/img/картошка с мясом.jpg");
+}
+
+#second-slide {
+  background-image: url("../Site_with_reciepts1/img/pizza.jpg");
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.slides {
+  position: absolute;
+}
+
+.overlay {
+  position: absolute;
+  background: rgba(227, 222, 219, 0.4);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 10;
+}
+
+.white-text {
+  color: white;
+}
+
+.description {
+  background: rgba(0, 0, 0, 0.6);
+  position: relative;
+  color: black;
+  font-size: 20pt;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding: 3%;
+  width: 50%;
+  z-index: 20;
+  left: 25%;
+}
